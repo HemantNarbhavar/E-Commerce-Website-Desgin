@@ -1,0 +1,118 @@
+body
+{
+    background-color: red;
+}
+
+/* navigation */
+#navbar
+{
+    flex-direction: column;
+    height: 50px;
+    /* position:static; */
+    position: relative;
+}
+
+#navbar ul
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar ul li 
+{
+    padding: 10px;
+}
+
+#navbar ul li a {
+    display: block;
+    text-align: center;
+    height: 10%;
+    width: 10%;
+    font-size: 12px;
+    padding: 0px 146px;
+    margin: 0px 122px;
+}
+
+#navbar ul input 
+{
+    display: block;
+    margin: auto;
+    padding: 0px 0px;
+    border-radius: 15px;
+    height: 15px;
+    width: 150px;
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    opacity: 0.50;
+}
+
+#logo img 
+{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    border: 2px solid darkgreen;
+    border-radius: 100px;
+}
+
+/* home section */
+#home
+{
+    margin: 158px 14px;
+    padding: 3px 10px;
+
+}
+#home::before
+{
+    height: 400px;
+}
+#home p
+{
+    font-size: 12px;
+}
+
+#myVideo
+{
+    /* width: 273%; */
+}
+
+/* service section */
+#services
+{
+    flex-direction: column;
+}
+
+#services .box img 
+{
+  
+    height: 120px;
+}
+
+#services .box {
+    border: 2px solid white;
+    padding: 0px;
+    margin: 5px 0px;
+    border-radius: 20px;
+}
+
+#contact-box label 
+{
+    font-size: 12px;
+}
+
+#contact-box input, #contact-box textarea
+{
+    font-size: 10px;
+
+}
+/* utility classes */
+.h-primary {
+    font-size: 25px;
+    margin: 120px 7px 10px;
+}
+
+footer
+{
+    font-size: 10px;
+}
