@@ -1,0 +1,67 @@
+@media  screen and (max-width:1250px) {
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+        margin: 10px auto;
+    }
+    nav ul{
+        justify-content: center;
+        font-size: 2vw;
+    }
+    .search{
+        justify-content: center;
+        margin: 5px auto;
+    }
+    .slider img{
+        width: 100vw;
+        margin: 0px 0px;
+    }
+    .cards{
+        grid-template-columns: auto auto;
+    }
+    .box{
+        font-size: 2vh;
+    }
+    /* .box button{
+        font-size: 1.1vw;
+    } */
+    
+}
+
+
+
+@media screen and (max-width:830px) {
+    #fish img{
+        width: 80vw;
+        height: 40vh;
+    }
+    .item img{
+        width: 40vw;
+        height: 40vh;
+    }
+    .box{
+        font-size: 1.8vh;
+        width: 30vw;
+    }
+    .box button{
+        font-size: 1.8vh;
+    }
+    
+    
+}
+
+@media screen and (max-width:420px){
+    nav ul{
+        flex-direction: column;
+        font-size: 3vw;
+        margin: 20px auto;
+        padding: 10px auto;
+        
+    }
+    /* .box{
+        font-size: 100px;
+    } */
+    
+}
